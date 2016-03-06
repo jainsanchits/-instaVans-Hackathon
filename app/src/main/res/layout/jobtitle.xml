@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardBackgroundColor="@color/white"
+    android:layout_width="match_parent"
+    android:id="@+id/fullCard"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:id="@+id/jobItemLayout"
+            android:paddingLeft="8dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="8dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#424242"
+                android:text = "Other Payment Options"
+                android:gravity="center|left"
+                android:id="@+id/jobTitle"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+</android.support.v7.widget.CardView>

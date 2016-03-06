@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginActivityLayout"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/porterName"
+            android:hint="Full Name"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/porterMobile"
+            android:hint="Mobile Number"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:layout_margin="10dp"
+            android:id="@+id/signup" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:id="@+id/viewDivider"
+            android:background="#424242"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="OR"
+            android:layout_centerInParent="true"
+            android:padding="5dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="4dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/porterNumber"
+            android:hint="Porter Number"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_margin="10dp"
+            android:id="@+id/login" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

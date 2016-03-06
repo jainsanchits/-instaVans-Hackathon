@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "instavan-e59c2",
+    "project_number": "277885899600",
+    "name": "Instavan"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277885899600:android:083db421c1087c4d",
+        "client_id": "android:instavan.sanchit.instavan",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "instavan.sanchit.instavan",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
